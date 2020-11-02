@@ -9,16 +9,22 @@
 <body>
     <canvas id="jsCanvas" class="canvas"></canvas>
     <div class="controls">
+        <div class="controls__range"><input type="range" id="jsRange" min="0.1" max="5" value="2.5" step="0.1">
+        </div>
+        <div class="controls__btns">
+            <button id="jsFill">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
         <div class="controls__colors" id="jsColors">
-            <div class="controls__color" style="background: #2c2c2c;"></div>
-            <div class="controls__color" style="background: white;"></div>
-            <div class="controls__color" style="background: #ff3b30;"></div>
-            <div class="controls__color" style="background: #ff9500;"></div>
-            <div class="controls__color" style="background: #ffcc00;"></div>
-            <div class="controls__color" style="background: #4cd96d;"></div>
-            <div class="controls__color" style="background: #5acbfa;"></div>
-            <div class="controls__color" style="background: #0579ff;"></div>
-            <div class="controls__color" style="background: #5856d6;"></div>
+            <div class="controls__color jsColor" style="background: #2c2c2c;"></div>
+            <div class="controls__color jsColor" style="background: white;"></div>
+            <div class="controls__color jsColor" style="background: #ff3b30;"></div>
+            <div class="controls__color jsColor" style="background: #ff9500;"></div>
+            <div class="controls__color jsColor" style="background: #ffcc00;"></div>
+            <div class="controls__color jsColor" style="background: #4cd96d;"></div>
+            <div class="controls__color jsColor" style="background: #5acbfa;"></div>
+            <div class="controls__color jsColor" style="background: #0579ff;"></div>
+            <div class="controls__color jsColor" style="background: #5856d6;"></div>
         </div>
     </div>
     <script src="app.js"></script>
